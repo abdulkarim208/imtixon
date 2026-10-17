@@ -17,13 +17,13 @@ int main()
 
     for (int i = 0; i < 5; i++)
     {
-        scanf("%49s %d %d",
+        scanf("%s %d %d",
               mahsulotlar[i].nomi,
               &mahsulotlar[i].narxi,
               &mahsulotlar[i].soni);
     }
 
-    scanf("%49s", qidiruv);
+    scanf("%s", qidiruv);
 
     printf("Barcha mahsulotlar:\n");
 
