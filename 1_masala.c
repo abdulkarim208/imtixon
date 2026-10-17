@@ -2,17 +2,17 @@
 
 int main()
 {
-    int sonlar[5];
-    int yigindi = 0;
-
+    int massiv[5];
+    
     for (int i = 0; i < 5; i++)
     {
-        scanf("%d", &sonlar[i]);
+        scanf("%d", &massiv[i]);
     }
-
+    
+    int yigindi = 0;
     for (int i = 0; i < 5; i++)
     {
-        yigindi += sonlar[i];
+        yigindi += massiv[i];
     }
 
     printf("Yigindi: %d\n", yigindi);
